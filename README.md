@@ -1,7 +1,7 @@
 #css 实时解析
 
 
-> 具体效果打开 demo.html 观看
+> 具体效果打开 index.html 观看
 
 style样式的参数形式
 	
@@ -22,6 +22,11 @@ style样式的参数形式
 
 暂时只支持延迟和速度
 
-方法：运行脚本 `jsonStyle.js` （需更改脚本最后几行的css文件源和目标源）
+方法：
 
-原理：通过一系列的正则把css格式化成json格式的数据，然后根据json来向页面输出字符，这个过程中同时修改style
+	1、需要实时预览的css写到 src/css/01.css 中
+	2、cd 到 lib 目录，运行 node node jsonStyle.js build ../src/css/01.css ../src/js/formatArr.js，把标准的css解析成json
+	3、cd 到跟目录，运行 webpack
+	4、打开 index.html 预览效果 
+
+原理：通过一系列的正则把css格式化成json格式的数据，然后根据json来向页面输出字符，同时修改style
