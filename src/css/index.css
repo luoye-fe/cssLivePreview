@@ -1,0 +1,42 @@
+.switchBtn {
+    position: fixed;left: 10px;bottom: 10px;font-size: 14px;color: #ff5151;cursor: pointer;
+}
+.type_effect {
+    display: inline-block;vertical-align: middle;width: 1px;height: 14px;margin: 0 4px;-webkit-transition: none;
+}
+@-webkit-keyframes work_con {
+    0% {opacity: 0.5;top: 20px;}
+    50% {opacity: 1;top: 0px;}
+    100% {opacity: 0.5;top: 20px;}
+}
+@-webkit-keyframes eyeclose1 {
+    0% {top: 19px;}
+    50% {top: 27px;}
+    100% {top: 19px;}
+}
+@-webkit-keyframes eyeclose2 {
+    0% {bottom: 12px;}
+    50% {bottom: 19px;}
+    100% {bottom: 12px;}
+}
+@keyframes myfirst {
+    0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    25% {-webkit-transform: rotate(10deg);transform: rotate(10deg);}
+    50% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    75% {-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
+    100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+@-moz-keyframes myfirst {
+    0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    25% {-webkit-transform: rotate(10deg);transform: rotate(10deg);}
+    50% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    75% {-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
+    100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}
+@-webkit-keyframes myfirst {
+    0% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    25% {-webkit-transform: rotate(10deg);transform: rotate(10deg);}
+    50% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+    75% {-webkit-transform: rotate(-10deg);transform: rotate(-10deg);}
+    100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "csslivepreview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoye-fe/cssLivePreview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoye-fe/cssLivePreview/issues"
+  },
+  "homepage": "https://github.com/luoye-fe/cssLivePreview#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "css": "^2.2.1",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "jsx-loader": "^0.13.2",
+    "sass": "^0.5.0",
+    "style": "0.0.3",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9"
+  }
+}

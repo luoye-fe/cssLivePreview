@@ -147,7 +147,6 @@ html, body {
     top: 50px;
     width: 20px;
     height: 120px;
-    transform: rotate(3deg);
     content: " ";
     border-radius: 50% 20% 20% 50%;
     box-shadow: 4px 0px 6px #ccc inset;
@@ -193,7 +192,6 @@ html, body {
     background: #fff;
     border-radius: 50%;
     -webkit-transform: rotate(16deg);
-    transform: rotate(16deg);
     box-shadow: 6px 6px 6px #ccc inset;
     z-index: 91;
 }
@@ -206,7 +204,6 @@ html, body {
     background: #fff;
     border-radius: 50% 50% 40% 40%;
     -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
 }
 .hl-l:before {
     position: absolute;
@@ -217,7 +214,6 @@ html, body {
     height: 82px;
     box-shadow: 4px 0px 6px #ccc inset;
     -webkit-transform: rotate(-0deg);
-    transform: rotate(-0deg);
     border-radius: 50% 20% 20% 50%;
 }
 .f-1 {
@@ -228,7 +224,6 @@ html, body {
     height: 30px;
     background: #fff;
     -webkit-transform: rotate(-35deg);
-    transform: rotate(-35deg);
     border-radius: 50% 50% 40%;
     box-shadow: 0px -2px 2px #ccc inset;
     z-index: 90;
@@ -241,7 +236,6 @@ html, body {
     height: 40px;
     background: #fff;
     -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
     border-radius: 50% 50% 40%;
     box-shadow: 0px -2px 2px #ccc inset;
     z-index: 90;
@@ -254,7 +248,6 @@ html, body {
     height: 40px;
     background: #fff;
     -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
     border-radius: 50% 50% 40%;
     box-shadow: 0px -2px 2px #ccc inset;
     z-index: 89;
@@ -268,7 +261,6 @@ html, body {
     background: #fff;
     border-radius: 50%;
     -webkit-transform: rotate(-16deg);
-    transform: rotate(-16deg);
     box-shadow: -6px -6px 6px #ccc inset;
     z-index: 91;
 }
@@ -281,7 +273,6 @@ html, body {
     background: #fff;
     border-radius: 50% 50% 40% 40%;
     -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
 }
 .hr-r:before {
     position: absolute;
@@ -292,7 +283,6 @@ html, body {
     height: 82px;
     box-shadow: -4px 0px 6px #ccc inset;
     -webkit-transform: rotate(-0deg);
-    transform: rotate(-0deg);
     border-radius: 20% 50% 50% 20%;
 }
 .fr-1 {
@@ -303,7 +293,6 @@ html, body {
     height: 30px;
     background: #fff;
     -webkit-transform: rotate(35deg);
-    transform: rotate(35deg);
     border-radius: 50% 50% 40%;
     box-shadow: 0px -2px 2px #ccc inset;
     z-index: 90;
@@ -316,7 +305,6 @@ html, body {
     height: 40px;
     background: #fff;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
     border-radius: 50% 50% 40%;
     box-shadow: 0px -2px 2px #ccc inset;
     z-index: 90;
@@ -329,7 +317,6 @@ html, body {
     height: 40px;
     background: #fff;
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
     border-radius: 50% 50% 40%;
     box-shadow: 0px -2px 2px #ccc inset;
     z-index: 89;
@@ -341,14 +328,12 @@ html, body {
     width: 64px;
     height: 15px;
     -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
     z-index: 101;
 }
 .cover-x {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
     bottom: 12px;
     width: 64px;
     height: 12px;
@@ -379,17 +364,11 @@ html, body {
     border: 1px solid #ccc;
 }
 .head {
-    animation: myfirst 10s infinite;
-    -moz-animation: myfirst 30s infinite;
-    -webkit-animation: myfirst 30s infinite;
+    -webkit-animation: myfirst 20s infinite;
 }
 .cover-s {
-    animation: eyeclose1 3s infinite 2s;
-    -moz-animation: eyeclose1 3s infinite 2s;
-    -webkit-animation: eyeclose1 3s infinite 2s;
+    -webkit-animation: eyeclose1 2s infinite 0.1s;
 }
 .cover-x {
-    animation: eyeclose2 3s infinite 2s;
-    -moz-animation: eyeclose2 3s infinite 2s;
-    -webkit-animation: eyeclose2 3s infinite 2s;
+    -webkit-animation: eyeclose2 2s infinite 0.8s;
 }
