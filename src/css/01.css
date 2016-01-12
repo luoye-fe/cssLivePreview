@@ -1,69 +1,7 @@
-/* {{speed:3;delay:2000;}}
- * let`s begin!!
- */
-
-
-/*
- * 首先，让我们做点准备
- */
 
 * {
     -webkit-transition: all ease 1s;
 }
-
-/*
- * 当然，这并没有什么变化，不要急，让我们继续。
- */
-
-
-/*
- * 先让我们来创建一个工作区
- */
-
-#work_con {
-    /* speed:5;delay:100; */
-    position: fixed;
-    right: 10px;
-    top: 10px;
-    width: 400px;
-    height: 300px;
-    padding: 10px 15px;
-    color: #fff;
-    background: #2d2d2d;
-    overflow: auto;
-    border: 1px solid #ccc;
-    font-size: 12px;
-    box-shadow: -4px 4px 2px 0 rgba(0, 0, 0, 0.3);
-    white-space: pre-wrap;
-    outline: 0;
-    line-height: 16px;
-}
-#work_con:hover{
-  box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
-}
-
-/* {{speed:3;delay:200;}}
- * 是时候为我们的工作区加点颜色了
- */
-
-#work_con .comment {
-    color: #747269;
-    font-style: italic;
-}
-#work_con .selector {
-    color: #e96951;
-}
-#work_con .key {
-    color: #fb9356;
-}
-#work_con .value {
-    color: #62cbcc;
-}
-
-
-/*
- * 完美，那，让我们做点有趣的事情？go！
- */
 
 html, body {
     background: #2d2d2d;
@@ -75,9 +13,6 @@ html, body {
     position: relative;
 }
 
-/*
- * 1、来一个圆，嗯，多简单的圆啊
- */
 
 .head {
     left: 100px;
